@@ -1,0 +1,88 @@
+#head {
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 8px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0aff02;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-image: url("img/mario.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todos {
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.todos li {
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ff0000;
+    max-width: 800px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.add-todo-form {
+    padding: 20px;
+    align-items: center;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.add-todo-form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-todo-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff00f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-todo-form button:hover {
+    background-color: #ff0000;
+}
+
+#count {
+    background-color: blue;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 24px;
+    max-width: 500px;
+}
+
+#clear {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
